@@ -61,7 +61,7 @@ def orm(request):
     # data_list = models.UserInfo.objects.filter(id=1).first()
     models.UserInfo.objects.all().update(password = '999')
     models.UserInfo.objects.filter(id=2).update(age=999)
-    return HttpResponse('成功')
+    return HttpResponse('成功,OK!')
 
 def info_list(request):
     data_list = models.UserInfo.objects.all()
