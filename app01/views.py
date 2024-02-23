@@ -75,7 +75,7 @@ def info_add(request):
     age = request.POST.get('age')
     models.UserInfo.objects.create(name=name,password=password,age=age)
 
-    return redirect('http://127.0.0.1:8000/info/list/')
+    return redirect('/info/list/')
 
 def info_delete(request):
     id = request.GET.get('nid')

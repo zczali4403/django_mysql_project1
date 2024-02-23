@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%o%q026zf1!^u244id32qepubpnw4zs%#l8no1z4bw&jvcf3n=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['193.112.55.135','www.zhichengge.cn','zhichengge.cn']
 
 
 # Application definition
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'pycharm_django_p1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db',
-        'USER': 'root',
-        'PASSWORD': 'root123',
-        'HOST': 'localhost',
+        'NAME': 'www',
+        'USER': 'zcz',
+        'PASSWORD': '6161758.zhao',
+        'HOST': '127.0.0.1',
         'PORT':3306,
     }
 }
